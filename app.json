@@ -1,5 +1,5 @@
 {
-    "name": "𝚂𝚈𝚂𝚃𝙴𝙼 𝙼𝚄𝚂𝙸𝙲",
+    "name": "𝙽𝚈𝚂𝙰 𝙼𝚄𝚂𝙸𝙲",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/a9cdad2a972022f082903.jpg",
     "keywords": [
@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "27345751",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "2f4074e9f5a56e99fd9ba562f2314523",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "7391857972",
         "required": true
       },
       "STRING_SESSION": {
@@ -44,7 +44,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "",
+        "value": "HRKU-AALX43py8qk71t67gGy9osz-cqkA9lS-iDkN6zbB58BA_____w_D5H3CE6Nv",
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot or assistant and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1002260119965",
         "required": true
       }
     },
