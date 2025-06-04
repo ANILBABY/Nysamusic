@@ -19,7 +19,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "LavyaMusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Nysamusicbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -39,10 +39,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002130985363))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002260119965))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7953559026))
+OWNER_ID = int(getenv("OWNER_ID", 7391857972))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -71,8 +71,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/masoomupdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/masoomupdate")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/StylishNameFont")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HindiShayariGroups")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
