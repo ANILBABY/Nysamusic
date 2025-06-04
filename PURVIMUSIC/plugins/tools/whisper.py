@@ -19,7 +19,7 @@ async def _whisper(_, inline_query):
             InlineQueryResultArticle(
                 title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                 description=f"@LavyaMusicbot [ USERNAME | ID ] [ TEXT ]",
-                input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@LavyaMusicbot [ USERNAME | ID ] [ TEXT ]"),
+                input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@Nysamusicbot [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://files.catbox.moe/o9kx98.jpg",
                 reply_markup=switch_btn
             )
@@ -82,7 +82,7 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 7299227823]:
+    if user_id not in [from_user, to_user, 7854002053]:
         try:
             await _.send_message(from_user, f"{query.from_user.mention} is trying to open your whisper.")
         except Unauthorized:
@@ -110,8 +110,8 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
-            description=f"@LavyaMusicbot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Ishumusicsbot (Target Username or ID) (Your Message).\n\n**Example:**\n@Aradhya_music_bot @username I Wanna fuck You"),
+            description=f"@Nysamusicbot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Nysamusicbot (Target Username or ID) (Your Message).\n\n**Example:**\n@Babumusicbot @username I Wanna fuck You"),
             thumb_url="https://files.catbox.moe/o9kx98.jpg",
             reply_markup=switch_btn
         )
